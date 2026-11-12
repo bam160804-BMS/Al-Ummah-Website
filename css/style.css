@@ -133,7 +133,7 @@
     padding-left: 20px;
     padding-right: 20px; */
     margin: 10px;
-    background: rgba(255, 255, 255, 0.15);
+    background: aliceblue;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.2);
@@ -146,6 +146,8 @@
 
 .about{
     padding: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     background:  #010062;
     background: radial-gradient(circle, rgba(1, 0, 98, 1) 0%, rgba(1, 0, 98, 1) 44%, rgba(23, 172, 231, 1) 100%);
     color: white;
@@ -172,7 +174,7 @@
 }
 
 .aboutimg img{
-    width: 70%;
+    width: 80%;
     padding: 10px;
     background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(10px);
@@ -267,7 +269,7 @@
 
 .header6{
     padding: 50px;
-    background-color: #010062;
+    background-color: #030235;
     color: white;
 }
 
@@ -311,6 +313,174 @@
 
 .subh6 img{
     width: 100%;
+}
+
+.writeup3{
+    /* justify-content: center; */
+    padding-top: 30% ;
+}
+
+.header7{
+    padding: 80px;
+}
+
+.writeup4{
+    color: #010062;
+    margin: 20px;
+}
+.enimg{
+    text-align: center;
+    padding: 70px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid #FFB703;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.enimg img{
+    width: 90%;
+    /* border-radius: 20px; */
+    
+}
+
+.card i{
+    color: green;
+}
+
+.header8{
+    padding: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.smallwriteup3{
+    font-size: 17px;
+}
+
+.p4{
+    color: #010062;
+}
+
+.sp{
+    margin: 15px;
+    padding: 30px !important;
+    border-radius: 20px !important;
+
+}
+
+.dt{
+    margin: 15px;
+    padding: 30px !important;
+    border-radius: 20px !important;
+    background-color: #fcf2d9 !important;
+    
+}
+
+.spbut{
+    background-color: #010062 !important;
+    color: white !important;
+    /* width: 40%; */
+    padding: 15px !important;
+}
+
+.sp i{
+    color: #010062;
+    font-size: 30px;
+}
+
+.sp p{
+    font-size: 16px;
+}
+
+.dtbut{
+    background-color: #FFB703 !important;
+    color: white !important;
+    /* width: 40%; */
+    padding: 15px !important;
+}
+
+.dt i{
+    color: #FFB703;
+    font-size: 30px;
+}
+
+.dt p{
+    font-size: 16px;
+}
+
+.header9{
+    padding: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+    
+}
+
+.whatsapp{
+    background:  #010062;
+    background: radial-gradient(circle, rgba(1, 0, 98, 1) 0%, rgba(1, 0, 98, 1) 44%, rgba(23, 172, 231, 1) 100%);
+    color: white;
+}
+
+.whatsapp h6{
+    padding: 10px;
+    color: #FFB703;
+    width: 50%;
+    /* margin: 10px; */
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+
+}
+
+.con{
+    border: 1px solid #FFB703 !important;
+    background-color: #fcf2d9 !important;
+}
+
+.inf p{
+    font-size: 15px;
+}
+
+.wbut{
+    color: green !important;
+    background-color: white !important;
+    border-radius: 10px !important;
+    width: 60%;
+}
+
+.coninfo i{
+    font-size: 25px;
+    color: #FFB703;
+}
+
+.theend{
+    background-color: black;
+    color: white;
+    padding: 50px;
+    
+}
+
+.endlogo img{
+    width: 5%;
+}
+
+
+
+.motto h1{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.motto p{
+    font-size: 10px;
 }
 
 
@@ -368,6 +538,14 @@
     } */
 
     .aboutimg img{
+        width: 100%;
+    }
+
+    .wbut{
+    width: 100%;
+    }
+
+    .whatsapp h6{
         width: 100%;
     }
         
