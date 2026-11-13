@@ -126,6 +126,8 @@
     
 }
 
+
+
 .little{
    
     padding: 25px;
@@ -462,24 +464,55 @@
 }
 
 .theend{
-    background-color: black;
+    background-color: #030235;
     color: white;
-    padding: 50px;
+    padding: 40px !important;
+    
+
+}
+
+
+
+
+
+.headnav2  a{
+    color: white !important;
+    font-size: 15px;
+    text-decoration: none;
     
 }
 
-.endlogo img{
-    width: 5%;
+.headnav2 a:hover{
+    color: #FFB703 !important;
+    
 }
 
-
-
-.motto h1{
-    font-size: 15px;
-    font-weight: bold;
+.mottoimg{
+    color: white;
+    
+    
+}
+.mottoimg img{
+    width: 18%;
+    padding: 7px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1); 
+    
 }
 
-.motto p{
+.mottoimg h1{
+    font-size: 20px;
+}
+
+.mottoimg p{
+    font-size: 10px;
+}
+
+.cc{
     font-size: 10px;
 }
 
@@ -548,6 +581,17 @@
     .whatsapp h6{
         width: 100%;
     }
+    .mottoimg img{
+        width: 25%;
+    }
+
+    .headnav2{
+        justify-content: center;
+        padding: 20px;
+    }
+    
+
+    
         
 
    
